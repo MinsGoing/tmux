@@ -1,7 +1,7 @@
 # install
 ```
 git clone https://github.com/MinsGoing/tmux.git
-cp tmux/.tmux.conf ~/
+cp tmux/tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 ```
 # tmuxcheatsheet
