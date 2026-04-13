@@ -31,6 +31,7 @@ tmux source-file ~/.tmux.conf
 ### 新建会话
 
 ```bash
+# 任选其一
 tmux
 tmux new
 tmux new-session
