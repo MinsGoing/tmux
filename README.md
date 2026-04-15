@@ -23,6 +23,8 @@ apt install tmux
 git clone https://github.com/MinsGoing/tmux.git
 cp tmux/tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
+# 若报错/root/.tmux.conf:2: unknown command: \r,执行这一句后重新tmux source-file ~/.tmux.conf
+sed -i 's/\r$//' ~/.tmux.conf
 ```
 
 
